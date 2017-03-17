@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新闻发布</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--左侧栏下拉菜单-->
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".subNav").click(function(){
+		$(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd");
+		$(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt");
+		$(this).next(".navContent").slideToggle(300).siblings(".navContent").slideUp(500);
+	})	
+})
+</script>
+<!--左侧栏下拉菜单-->
+</head>
+
+<body>
+<!--boxkaishi-->
+<div id="box"> 
+  <!--header开始-->
+  <div id="header">
+    <div class="headerzuo"> <img src="img/logo.png" /> </div>
+    <div class="headeryou">
+      <div class="weneben">
+        <table height="16" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>你好，zhangyu，欢迎使用新闻源发布平台!</td>
+            <td width="40">&nbsp;</td>
+            <td><a href="#">个人信息&nbsp;&nbsp;&nbsp;</a></td>
+            <td>|</td>
+            <td>&nbsp;&nbsp;&nbsp;<a href="#">充值记录</a>&nbsp;&nbsp;&nbsp;</td>
+            <td>|</td>
+            <td>&nbsp;&nbsp;&nbsp;<a href="#">【修改密码】</a>&nbsp;&nbsp;&nbsp;</td>
+            <td>|</td>
+            <td>&nbsp;&nbsp;&nbsp;<a href="#">【安全退出】</a>&nbsp;&nbsp;&nbsp;</td>
+            <td>|</td>
+          </tr>
+        </table>
+      </div>
+      <div class="xialakuang">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><form action="" method="get">
+                <select name="">
+                  <option value="0">软文发布</option>
+                  <option value="1">批量发布</option>
+                  <option value="3">批量文件发布</option>
+                  <option value="4">批量压缩包发布</option>
+                </select>
+              </form></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!--header结束--> 
+  <!--contenter开始-->
+  <div id="contenter"> 
+    <!--contentershang开始-->
+    <div class="contentershang">
+      <div class="gongneng">
+        <table border="0" cellpadding="0" cellspacing="0" height="32">
+          <tr>
+            <td><img src="img/gongnengxiaobiao.gif" /></td>
+            <td>功能菜单</td>
+            <td width="69">&nbsp;</td>
+            <td class="a1" align="center" valign="middle"><a href="#"><img src="img/ruanwenbiao.png" />软文发布</a></td>
+            <td>&nbsp;</td>
+            <td class="a1" align="center" valign="middle"><a href="#"><img src="img/shujuguanli.png" width="23" height="26" />数据管理</a></td>
+            <td>&nbsp;</td>
+            <td class="a1" align="center" valign="middle"><a href="#"><img src="img/baobiaoguanlibiao.png" width="23" height="26" />报表管理</a></td>
+            <td width="18">&nbsp;</td>
+            <td><img src="img/zhongbiao.png" /></td>
+            <td style="font-size:12px; vertical-align:bottom;">现在时间： &nbsp;2015年3月25日&nbsp;&nbsp;星期三&nbsp;&nbsp;11:00:32</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--contentershang结束--> 
+    <!--contenterxia开始-->
+    <div class="contenterxia"> 
+      <!--contenterxiazuo开始-->
+      <div class="contenterxiazuo">
+        <div class="subNavBox">
+          <div class="subNav currentDd currentDt">常用操作</div>
+          <ul class="navContent " style="display:block">
+            <li><a href="./guanggaoguanli.html">管理首页</a></li>
+            <li><a href="./kehuliebiaoye.html">数据列表</a></li>
+            <li><a href="./guanggaoguanli.html">广告管理</a></li>
+            <li><a href="./">输出数据</a></li>
+          </ul>
+          <div class="subNav currentDt">全部媒体</div>
+          <ul class="navContent">
+            <li><a href="./wenzhangfabuye.html">海安网&nbsp;<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">123查网&nbsp;<span style=" color:#FD0B21">（推荐）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">每日甘肃网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">医通无忧网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">今日惠州网&nbsp;<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">123查网&nbsp;<span style=" color:#FD0B21">（推荐）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">每日甘肃网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">长江新闻网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">海安网&nbsp;<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">123查网&nbsp;<span style=" color:#FD0B21">（推荐）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">每日甘肃网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">医通无忧网<span style=" color:#FD0B21">（独家）</span></a></li>
+          </ul>
+          <div class="subNav currentDt">今日推荐</div>
+          <ul class="navContent">
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./wenzhangtianjiaxiugaiguanli.html">新闻管理</a></li>
+          </ul>
+          <div class="subNav">独家媒体</div>
+          <ul class="navContent">
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./wenzhangtianjiaxiugaiguanli.html">新闻管理</a></li>
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./wenzhangtianjiaxiugaiguanli.html">新闻管理</a></li>
+          </ul>
+          <div class="subNav">系统设置</div>
+          <ul class="navContent">
+            <li><a href="./xitongyonghuzuguanli.html">用户组设定</a></li>
+            <li><a href="./yonghufabubaobiaoxiangxi.html">系统用户管理</a></li>
+            <li><a href="./kehuliebiaoye.html">客户列表</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--contenterxiazuo结束--> 
+      <!--contenterxiayou开始-->
+      <div class="contenterxiayou">
+        <div class="shang">
+          <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20">&nbsp;</td>
+              <td><img src="img/dingweizhanbiao.gif" width="13" height="20" /></td>
+              <td>系统用户组管理</td>
+            </tr>
+          </table>
+        </div>
+        <div class="xia"> 
+          <!--正文外边框kaiahi-->
+          <div align="center" style="margin-top:10px; float:left; width:100%; height:auto; font-size:12px; "> 
+            <!--开始-->
+            <div align="left" style="margin-top:10px;">
+              <table border="0" cellspacing="0" style=" margin-left:10; width:400;" cellpadding="0">
+                <tr>
+                  <td width="82">组名称:</td>
+                  <td width="318"><input type="text" width="150" /></td>
+                </tr>
+                <tr>
+                  <td height="30">组级别</td>
+                  <td>1</td>
+                </tr>
+              </table>
+            </div>
+            <!--结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 1.特别权限（仅超级管理员使用） </div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  可以进行任意操作（admin_Allowall） </div>
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 2.
+                新建频道</div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改频道（c_List） </div>
+                <div class="fudong">
+                  <input name="checkbox2" type="checkbox" />
+                  创建频道（c_New） </div>
+                <div class="fudong">
+                  <input name="checkbox3" type="checkbox" />
+                  修改频道（c_Edit） </div>
+                <div class="fudong">
+                  <input name="checkbox4" type="checkbox" />
+                  删除频道	（c_Del） </div>
+                <div class="fudong">
+                  <input name="checkbox4" type="checkbox" />
+                  联动类别管理	（c_Stepselect） </div>
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 3.栏目管理 </div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  列出任意栏目（t_List） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  新建任意栏目（t_New） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改任意栏目（t_Edit） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除任意栏目（t_Del） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  移动任意栏目（t_Move） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  列出授权栏目（t_AccList） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  新建授权子栏目（t_AccNew） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除授权子栏目（t_AccDel） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改授权子栏目（t_AccEdit） </div>
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 4.内容管理</div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2">
+                <div class="fudong">
+                  <input name="checkbox" type="checkbox" />
+                  列出内容（a_List） </div>
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  发布任意文档（a_New） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改任意文档（a_Edit） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除任意文档（a_Del） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  推荐任意文档（a_Conmend） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  审核任意文档（a_Chack） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  发布授权文档（a_AccNew） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  列出授权文档（a_Acclist） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改授权文档（a_AccEdit） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除授权文档（a_AccDel） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  审核授权文档（a_AccCheck） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  列出我发布的文档（a_AccMyList） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改我发布的文档（a_AccMyEdit） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除我发布的文档（a_AccMyDel） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  管理回收站（a_Recycling） </div>
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 5.采集管理 </div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  管理数据规则模型（co_NewRule） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  导入外部数据（co_Switch） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  怎加采集节点（co_AddNote） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改采集节点（co_EditNote） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  采集数据（co_playNote） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  列出采集节点（co_ListNote） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  管理已下载内容（co_ViewNote） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  采集内容入库（co_Export） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除采集节点（co_Del） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  导入离线数据（co_GetOut） </div>
+                
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 6.模版管理</div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  管理所有模板（temp_All） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  新建模板（temp_New） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改模板（temp_Edit） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除模板（temp_Del） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  单页模板管理（temp_One） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  自定义标题（temp_MyTag） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  测试标记（temp_Test） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  模板其它管理（temp_Other） </div>
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 7.专题管理</div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  新建专题（spec_New） </div>
+                <div class="fudong">
+                  <input name="checkbox2" type="checkbox" />
+                  列出专题（spec_List） </div>
+                <div class="fudong">
+                  <input name="checkbox3" type="checkbox" />
+                  修改专题（spec_Edit） </div>
+                
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 8.系统管理权限 </div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  系统用户管理（sys_User） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  系统组管理（sys_Group） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  更改个人密码（sys_NdPwd） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除附件（sys_DelUpload） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  计划任务管理（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  修改系统参数（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  管理日志（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  插件管理（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  数据备份还原（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  自定义文档属性（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  文档批量维护（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  文档信息统计（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  新闻来源（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  作者管理（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  软件频道参数（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  关键字管理（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  更新HTML（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  评论管理（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  管理任意上传（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  管理我的上传（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  图片浏览器（admin_Allowall） </div>
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 9.会员管理） </div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  会员类型管理（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  列出会员（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  更改会员（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  删除会员（admin_Allowall） </div>
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+            <!--zhengwen开始-->
+            <div class="zhengwen"> 
+              <!--开始-->
+              <div class="zhengwen1"> 10.插件管理 </div>
+              <!--结束--> 
+              <!--开始-->
+              <div class="zhengwen2"> 
+                <!--xuanzebufen开始-->
+                <div class="fudong">
+                  <input type="checkbox" />
+                  bShare分享插件（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  友情链接模块（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  文件管理器（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  百度新闻（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  投票模块（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  广告管理（admin_Allowall） </div>
+                <div class="fudong">
+                  <input type="checkbox" />
+                  挑错管理（admin_Allowall） </div>
+                <!--xuanzebufen结束--> 
+              </div>
+              <!--结束--> 
+            </div>
+            <!--zhengwen结束--> 
+          </div>
+          <!--正文外边框kaiahi-->
+          <div align="center" style="float:left; height:30px; width:100%;"></div>
+          <hr />
+          <div class="anniu">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="360"></td>
+                <td><input type="button" style="background:url(img/fanhui.png) no-repeat; height:32px; width:80px; font-size:14px; color:#FFFFFF"  border="0" name="保存" value="保存" /></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!--contenterxiayou 结束--> 
+    </div>
+    <!--contenterxia结束--> 
+  </div>
+  <!--contenter结束--> 
+  <!--footer开始-->
+  <div id="footer">
+    <div align="center" style="height:30px; width:100%;"></div>
+    <div class="dibu">北京德润九洲医药管理有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：北京省北京市朝阳区&nbsp;&nbsp;&nbsp;&nbsp;联系电话：010</div>
+  </div>
+  <!--foote结束--> 
+</div>
+<!--box结束-->
+</body>
+</html>

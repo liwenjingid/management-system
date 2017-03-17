@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新闻发布</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--左侧栏下拉菜单-->
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<script type="text/javascript">
+$(function(){
+  $(".subNav").click(function(){
+      $(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd");
+      $(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt");
+      $(this).next(".navContent").slideToggle(300).siblings(".navContent").slideUp(500);
+  })	
+})
+</script>
+<!--左侧栏下拉菜单-->
+</head>
+
+<body>
+<!--boxkaishi-->
+<div id="box"> 
+  <!--header开始-->
+  <div id="header">
+    <div class="headerzuo"> <img src="img/logo.png" /> </div>
+    <div class="headeryou">
+      <div class="weneben">
+        <table height="16" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>你好，zhangyu，欢迎使用新闻源发布平台!</td>
+            <td width="40">&nbsp;</td>
+            <td><a href="#">个人信息&nbsp;&nbsp;&nbsp;</a></td>
+            <td>|</td>
+            <td>&nbsp;&nbsp;&nbsp;<a href="#">充值记录</a>&nbsp;&nbsp;&nbsp;</td>
+            <td>|</td>
+            <td>&nbsp;&nbsp;&nbsp;<a href="#">【修改密码】</a>&nbsp;&nbsp;&nbsp;</td>
+            <td>|</td>
+            <td>&nbsp;&nbsp;&nbsp;<a href="#">【安全退出】</a>&nbsp;&nbsp;&nbsp;</td>
+            <td>|</td>
+          </tr>
+        </table>
+      </div>
+      <div class="xialakuang">
+        <select name="">
+          <option value="0">软文发布</option>
+          <option value="1">批量发布</option>
+          <option value="3">批量文件发布</option>
+          <option value="4">批量压缩包发布</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <!--header结束--> 
+  <!--contenter开始-->
+  <div id="contenter"> 
+    <!--contentershang开始-->
+    <div class="contentershang">
+      <div class="gongneng">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><img src="img/gongnengxiaobiao.gif" /></td>
+            <td>功能菜单</td>
+            <td width="69">&nbsp;</td>
+            <td class="a1" align="center" valign="middle"><a href="#"><img src="img/ruanwenbiao.png" />软文发布</a></td>
+            <td>&nbsp;</td>
+            <td class="a1" align="center" valign="middle"><a href="#"><img src="img/shujuguanli.png" width="23" height="26" />数据管理</a></td>
+            <td>&nbsp;</td>
+            <td class="a1" align="center" valign="middle"><a href="#"><img src="img/baobiaoguanlibiao.png" width="23" height="26" />报表管理</a></td>
+            <td width="18">&nbsp;</td>
+            <td><img src="img/zhongbiao.png" /></td>
+            <td style="font-size:12px; vertical-align:bottom;">现在时间： &nbsp;2015年3月25日&nbsp;&nbsp;星期三&nbsp;&nbsp;11:00:32</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--contentershang结束--> 
+    <!--contenterxia开始-->
+    <div class="contenterxia"> 
+      <!--contenterxiazuo开始-->
+      <div class="contenterxiazuo">
+        <div class="subNavBox">
+          <div class="subNav currentDd currentDt">常用操作</div>
+          <ul class="navContent " style="display:block">
+            <li><a href="./guanggaoguanli.html">管理首页</a></li>
+            <li><a href="./kehuliebiaoye.html">数据列表</a></li>
+            <li><a href="./guanggaoguanli.html">广告管理</a></li>
+            <li><a href="./">输出数据</a></li>
+          </ul>
+          <div class="subNav currentDt">全部媒体</div>
+          <ul class="navContent">
+            <li><a href="./wenzhangfabuye.html">海安网&nbsp;<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">123查网&nbsp;<span style=" color:#FD0B21">（推荐）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">每日甘肃网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">医通无忧网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">今日惠州网&nbsp;<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">123查网&nbsp;<span style=" color:#FD0B21">（推荐）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">每日甘肃网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">长江新闻网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">海安网&nbsp;<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">123查网&nbsp;<span style=" color:#FD0B21">（推荐）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">每日甘肃网<span style=" color:#FD0B21">（独家）</span></a></li>
+            <li><a href="./wenzhangfabuye.html">医通无忧网<span style=" color:#FD0B21">（独家）</span></a></li>
+          </ul>
+          <div class="subNav currentDt">今日推荐</div>
+          <ul class="navContent">
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./wenzhangtianjiaxiugaiguanli.html">新闻管理</a></li>
+          </ul>
+          <div class="subNav">独家媒体</div>
+          <ul class="navContent">
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./wenzhangtianjiaxiugaiguanli.html">新闻管理</a></li>
+            <li><a href="./meitixinxitianjiaxiugai.html">添加新闻</a></li>
+            <li><a href="./wenzhangtianjiaxiugaiguanli.html">新闻管理</a></li>
+          </ul>
+          <div class="subNav">系统设置</div>
+          <ul class="navContent">
+            <li><a href="./xitongyonghuzuguanli.html">用户组设定</a></li>
+            <li><a href="./yonghufabubaobiaoxiangxi.html">系统用户管理</a></li>
+            <li><a href="./kehuliebiaoye.html">客户列表</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--contenterxiazuo结束--> 
+      <!--contenterxiayou开始-->
+      <div class="contenterxiayou">
+        <div class="shang">
+          <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="20">&nbsp;</td>
+              <td><img src="img/dingweizhanbiao.gif" width="13" height="20" /></td>
+              <td>文章添加修改管理</td>
+              <td><form action="" style="margin-top:4px; margin-left:15px;" method="get">
+                  <select name="">
+                    <option value="0">软文发布</option>
+                    <option value="1">批量发布</option>
+                    <option value="3">批量文件发布</option>
+                    <option value="4">批量压缩包发布</option>
+                  </select>
+                </form></td>
+              <td style="color:#FF0000; font-size:14px;">&nbsp;&nbsp;在这选择频道哦！</td>
+            </tr>
+          </table>
+        </div>
+        <div class="xia">
+          <div  align="center" style="padding-left:10px; font-weight:bold; font-size:14px; color:#135C93; margin-top:15px; text-align:left;">发布间隔<span style="color:#FF0000;">*（单位秒）</span></div>
+          <div style="margin-top:10px;">
+            <input type="text"  align="middle" border="1px solid #D9D9D9;"  value="2015-03-11&nbsp;23:22:00" style="color:#CCCCCC; font-size:12px; height:30px; width:350px; margin-left:10px;" />
+          </div>
+          <div  align="center" style="padding-left:10px; font-weight:bold; font-size:14px; color:#135C93; margin-top:15px; text-align:left;">发布时间</div>
+          <div style="margin-top:10px;">
+            <input name="text" type="text" style="color:#CCCCCC; font-size:12px; height:30px; width:350px; margin-left:10px;"  value="2015-03-11&nbsp;23:22:00"  align="middle" border="1px solid #D9D9D9;" />
+          </div>
+          <div  align="center" style="padding-left:10px; font-weight:bold; font-size:14px; color:#135C93; margin-top:15px; text-align:left; margin-bottom:10px;">文章内容</div>
+          <div  style="margin-left:10px; height:35px; border:1px #D9D9D9 solid; line-height:35px; padding-left:10px; background:#EAEAEA;">
+            <div align="left" style="float:left; font-size:12px; width:auto;">文件名</div>
+            <div align="left" style="float:right; font-size:12px; width:150px;"> 状态</div>
+            <div align="left" style="float:right; font-size:12px; width:150px;">文件大小</div>
+          </div>
+          <div align="left" style=" border-left:1px #D9D9D9 solid; border-right:1px #D9D9D9 solid; height:60px; margin-left:10px;" ></div>
+          <div style="margin-left:10px; height:35px; border:1px #D9D9D9 solid; line-height:35px; padding-left:10px; background:#EAEAEA;">
+            <div align="left" style="float:left; font-size:12px; width:auto;">
+              <input type="button" style="height:22px; margin-top:4px; width:80px; font-size:13px;"  border="0" name="" value="+添加文件" />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="button" style="height:22px; margin-top:4px; width:80px; font-size:13px;"  border="0" name="" value="开始上传" />
+            </div>
+            <div align="left" style="float:right; font-size:12px; width:150px;"> 10%</div>
+            <div align="left" style="float:right; font-size:12px; width:150px;">0b</div>
+          </div>
+          <div class="anniu">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="10">&nbsp;</td>
+                <td><input type="button" style="background:url(img/queding.png) no-repeat; height:32px; width:80px; font-size:13px; color:#FFFFFF" border="0" name="" value="发布文章" /></td>
+                <td width="60">&nbsp;</td>
+                <td><input type="button" style="background:url(img/fanhui.png) no-repeat; height:32px; width:80px; font-size:13px; color:#FFFFFF"  border="0" name="" value="复制全文" /></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!--contenterxiayou 结束--> 
+    </div>
+    <!--contenterxia结束--> 
+  </div>
+  <!--contenter结束--> 
+  <!--footer开始-->
+  <div id="footer">
+    <div align="center" style="height:30px; width:100%;"></div>
+    <div class="dibu">北京德润九洲医药管理有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：北京省北京市朝阳区&nbsp;&nbsp;&nbsp;&nbsp;联系电话：010</div>
+  </div>
+  <!--foote结束--> 
+</div>
+<!--box结束-->
+</body>
+</html>
